@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 };
 
-export const anahein = Anaheim({ weight: "400", subsets: ['latin'] })
+const anahein = Anaheim({ weight: "400", subsets: ['latin'] })
 
 export default function RootLayout({
   children,
